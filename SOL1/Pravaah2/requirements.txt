@@ -1,0 +1,24 @@
+# Causal RAG System Dependencies
+# Core LangGraph & LangChain
+langgraph>=0.0.40
+langchain>=0.1.0
+langchain-google-genai>=1.0.0
+
+# Embedding & Vector Store
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+chromadb>=0.4.0
+
+# Google Gemini
+google-generativeai>=0.4.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# UI
+streamlit>=1.30.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
